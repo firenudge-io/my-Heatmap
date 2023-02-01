@@ -44,7 +44,7 @@ export const ProjectTable = () => {
 
 
     return (
-        <div className="h-screen mt-3 mb-10 container">
+        <div className="h-screen mt-3 mb-10 container mx-auto">
             <div className="container w-11/12 xl:w-3/4 mx-auto flex flex-col justify-center shadow-xl rounded-xl dark:bg-gray-800 dark:text-white">
 
                 <div className="w-9/12 mx-auto flex flex-col justify-center">
