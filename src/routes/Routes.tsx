@@ -5,7 +5,7 @@ import { Heatmap } from "../pages/Heatmap"
 
 const RouteItems = [
     { name: "Home", link: "/", element: <Heatmap /> },
-    { name: "Home", link: "/my_Heatmap/", element: <Heatmap /> },
+    { name: "Home", link: "/my-Heatmap/", element: <Heatmap /> },
 ]
 
 

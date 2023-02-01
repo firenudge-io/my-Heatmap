@@ -27,7 +27,7 @@ Built with `TypeScript` and with basics of `React`
 ="{from: '"&TEXT(A2,"mm-dd-yyyy")&"', to: '"&TEXT(B2,"mm-dd-yyyy")&"'},"
 ```
 
-my_Heatmap
+my-Heatmap
 
 my/Heatmap
 
