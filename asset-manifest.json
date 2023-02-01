@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/my-Heatmap/static/css/main.8231dfc5.css",
+    "main.js": "/my-Heatmap/static/js/main.9c6cc957.js",
+    "index.html": "/my-Heatmap/index.html",
+    "main.8231dfc5.css.map": "/my-Heatmap/static/css/main.8231dfc5.css.map",
+    "main.9c6cc957.js.map": "/my-Heatmap/static/js/main.9c6cc957.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8231dfc5.css",
+    "static/js/main.9c6cc957.js"
+  ]
+}
