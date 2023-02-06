@@ -1,10 +1,10 @@
-import { ProjectTable } from "../components/ProjectTable"
+import { ProjectCard } from "../components/ProjectCard"
 import '../styles/Calendar.css'
 
 export const Heatmap = () => {
     return (
         <div className="">
-            <ProjectTable />
+            <ProjectCard />
         </div>
     )
 }
