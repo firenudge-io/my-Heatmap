@@ -1,10 +1,9 @@
-import { Table } from "flowbite-react";
 import { useState } from "react"
 import Calendar from "reactjs-availability-calendar";
 import { ReadURL } from "../constants/URLS";
 import { options } from "../utils/CalendarOptions";
 
-export const ProjectTable = () => {
+export const ProjectCard = () => {
     // FETCH DATA FROM GOOGLE SHEETS API
     const [data, setData] = useState([]);
     const [req, setReq] = useState('');
@@ -45,7 +44,7 @@ export const ProjectTable = () => {
 
     return (
         <div className="h-screen mt-3 mb-10 container mx-auto">
-            <div className="container w-11/12 xl:w-3/4 mx-auto flex flex-col justify-center shadow-xl rounded-xl dark:bg-gray-800 dark:text-white">
+            <div className="container w-11/12 xl:w-3/4 mx-auto flex flex-col justify-center shadow-md shadow-gray-200 dark:shadow-gray-600 rounded-xl dark:bg-gray-800 dark:text-white">
 
                 <div className="w-9/12 mx-auto flex flex-col justify-center">
                     <label className="block pt-10 pl-4 mb-2 text-sm font-medium text-gray-900 dark:text-white">Select an option</label>

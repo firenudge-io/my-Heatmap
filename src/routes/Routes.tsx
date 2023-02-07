@@ -1,11 +1,13 @@
 import { BrowserRouter, Route, Routes, } from "react-router-dom"
 import { ProjectNavbar } from "../components/ProjectNavbar"
 import { ProjectFooter } from "../components/ProjectFooter"
-import { Heatmap } from "../pages/Heatmap"
+import { Dashboard } from "../pages/Dashboard"
+import { Home } from "../pages/Home"
 
 const RouteItems = [
-    { name: "Home", link: "/", element: <Heatmap /> },
-    { name: "Home", link: "/my-Heatmap/", element: <Heatmap /> },
+    { name: "Home", link: "/", element: <Home /> },
+    { name: "Home", link: "/my-Heatmap/", element: <Home /> },
+    { name: "Home", link: "/my-Heatmap/Dashboard", element: <Dashboard /> },
 ]
 
 
